@@ -1,0 +1,52 @@
+.HeaderImage {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.HeaderText {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.CardFoodMedia {
+  transform: scale(1);
+  transition: 0.4s;
+  opacity: 0.8;
+}
+
+.CardFood:hover .CardFoodMedia {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.price {
+  margin-top: 15px;
+  color: #dcca87;
+  text-align: center;
+  font-size: 35px;
+}
+
+.discountPrice {
+  font-size: 17px;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.discountIcon {
+  position: absolute;
+  height: 20px;
+  background-color: #dcca87;
+  color: #000;
+  z-index: 100;
+  text-align: right;
+  right: 0;
+}
+
+.discountText {
+  text-align: right;
+  color: #dcca87;
+  font-size: 19px;
+}
